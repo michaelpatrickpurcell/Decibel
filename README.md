@@ -54,7 +54,7 @@ If the outcome of the Decibel check is greater than or equal to the target numbe
 then the check is considered a success.  Otherwise, the check is considered a failure.
 
 ### Table
-This table describes the probability of success (i.e. NdB >= k) for various
+This table describes the probability of succeeding at a static resolution roll (i.e. NdB >= k) for various
 values of N and k.
 
 |       |   k = 0 |   k = 1 |   k = 2 |   k = 3 |   k = 4 |   k = 5 |   k = 6 |   k = 7 |   k = 8 |   k = 9 |
