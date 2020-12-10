@@ -31,14 +31,13 @@ Notice that a standard (N-X)dB check is not the same as a simple MdB check where
 M = N-X. The distributions of the outcomes of these two checks are generally quite
 different. 
 
-![Distribution of outcomes for standard checks](discard_distributions.png)
-
 ### Example
 Suppose a player is making a standard (7-3)dB check.  The player rolls seven
 twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
 discards the three dice with the greatest values which yields the intermediate result
 of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
 
+![Distribution of outcomes for standard checks](discard_distributions.png)
 
 ## Static Resolution
 In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
