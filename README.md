@@ -1,5 +1,5 @@
 # Decibel
-A simple dice mechanic for tabletop role playing games.
+A dice mechanic for tabletop role playing games.
 
 ## Simple Checks
 To make a simple check, players roll a pool of three or more twenty-sided dice (d20s).
