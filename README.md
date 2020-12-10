@@ -62,11 +62,12 @@ the probability that a player succeeds at a static resolution roll or wins a dyn
 resolution roll. A negative modifier decreases the probability that a player succeeds
 at a static resolution roll or wins a dynamic resolution roll.
 In Decibel, as in many dice pool systems, modifiers change the composition of a dice
-pool before a check is made.This can be accomplished by simply adding dice to the dice pool.
-That is, by increasing the value of N in a standard (N-X)dB check. This can be accomplished
-by both adding dice to the dice pool and increasing the number of dice that are discarded
-before computing the outcome of the check.  That is, by increasing both the value of
-N and X by the same amount in a standard (N-X)dB check.
+pool before a check is made. Positive modifiers can be implemented by simply adding dice
+to the dice pool. That is, by increasing the value of N in a standard (N-X)dB check.
+Negative modifiers can be implemented by both adding dice to the dice pool and increasing
+the number of dice that are discarded before computing the outcome of the check. 
+That is, by increasing both the value of N and X by the same amount in a standard
+(N-X)dB check.
 
 Notice that, because they both add dice to the dice pool, positive and negative modifiers
 do not simply cancel each other out.  In general, as the number of modifiers increases the
