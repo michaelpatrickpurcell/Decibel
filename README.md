@@ -16,6 +16,8 @@ Suppose that  aplayer is making a simple 5dB check.
 The player rolls five twenty-sided dice and gets a result of {6,14,3,7,10}.
 The outcome of the check is 14 - 3 = 11.
 
+![Distribution of outcomes for simple checks](outcome_distributions.png)
+
 ## Standard Checks
 One shortcoming of simple checks is that the distributions of the outcome of all
 such checks are skewed in the same direction. Distributions that are skewed in the
