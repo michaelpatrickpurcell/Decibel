@@ -31,6 +31,20 @@ Notice that a standard (N-X)dB check is not the same as a simple MdB check where
 M = N-X. The distributions of the outcomes of these two checks are generally quite
 different. 
 
+### Example
+Suppose a player is making a standard (7-3)dB check.  The player rolls seven
+twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
+discards the three dice with the greatest values which yields the intermediate result
+of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
+
+![Distribution of outcomes for standard checks](discard_distributions.png)
+
+## Static Resolution
+In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
+target number. This is frequently called a "skill check" in many role playing systems.
+If the outcome of the Decibel check is greater than or equal to the target number,
+then the check is considered a success.  Otherwise, the check is considered a failure.
+
 |       |   k = 0 |   k = 1 |   k = 2 |   k = 3 |   k = 4 |   k = 5 |   k = 6 |   k = 7 |   k = 8 |   k = 9 |
 |:------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|
 | N = 3 |    1.00 |    1.00 |    0.98 |    0.96 |    0.92 |    0.87 |    0.81 |    0.75 |    0.68 |    0.61 |
@@ -48,20 +62,6 @@ different.
 | N = 6 |     0.91 |     0.87 |     0.80 |     0.72 |     0.63 |     0.52 |     0.40 |     0.28 |     0.16 |     0.06 |
 | N = 7 |     0.95 |     0.92 |     0.87 |     0.80 |     0.72 |     0.61 |     0.49 |     0.35 |     0.21 |     0.08 |
 | N = 8 |     0.97 |     0.95 |     0.92 |     0.86 |     0.79 |     0.69 |     0.56 |     0.42 |     0.26 |     0.10 |
-
-### Example
-Suppose a player is making a standard (7-3)dB check.  The player rolls seven
-twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
-discards the three dice with the greatest values which yields the intermediate result
-of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
-
-![Distribution of outcomes for standard checks](discard_distributions.png)
-
-## Static Resolution
-In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
-target number. This is frequently called a "skill check" in many role playing systems.
-If the outcome of the Decibel check is greater than or equal to the target number,
-then the check is considered a success.  Otherwise, the check is considered a failure.
 
 ## Dynamic Resolution
 In a _dynamic resolution_ roll, the outcome of a Decibel check is compared with the
