@@ -171,3 +171,21 @@ plt.xticks(np.arange(20))
 plt.ylabel("P{(N-X)dB = k}")
 plt.legend()
 plt.show()
+
+
+# ========================================================================================
+# Visualize distribution of the Nd6k3 alternative to Decibel
+# ========================================================================================
+TRIALS = 2 ** 16
+
+for N in range(3, 9):
+    results = np.random.randint(1, 7, size=(TRIALS, N))
+    results.sort()
+    outcomes = results[:, :3].sum(axis=1)
+    c = Counter(outcomes)
+    for k in c.keys():
+        c[k] /= TRIALS
+    plt.plot(*list(zip(*sorted(c.items()))), label="N = %i" % N)
+
+plt.legend()
+plt.show()
