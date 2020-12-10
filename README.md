@@ -31,6 +31,8 @@ Notice that a standard (N-X)dB check is not the same as a simple MdB check where
 M = N-X. The distributions of the outcomes of these two checks are generally quite
 different. 
 
+![Distribution of outcomes for standard checks](discard_distributions.png)
+
 ### Example
 Suppose a player is making a standard (7-3)dB check.  The player rolls seven
 twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
@@ -77,3 +79,5 @@ variance of the outcome of a check decreases. That said, allowing positive and n
 modifiers to cancel each other out before applying the remaining modifiers leads to simpler
 accounting and more manageable dice pools. So, any game system that uses the Decibel dice
 system will need to specify how to handle opposing modifiers.
+
+![Distributions of outcomes for modified 3dB checks](modified_distributions.png)
