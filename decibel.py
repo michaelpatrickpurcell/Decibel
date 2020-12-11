@@ -63,7 +63,8 @@ df = pd.DataFrame(
     columns=["k = %i" % i for i in range(20)],
     index=["N = %i" % i for i in range(3, 9)],
 )
-print(df[:, :10].to_latex(float_format="%.2f"))
+print(df.iloc[:, :10].to_markdown(floatfmt=".2f"))
+print(df.iloc[:, 10:].to_markdown(floatfmt=".2f"))
 
 plt.imshow(hits, aspect="auto")
 plt.title("P{NdB >= k}")
@@ -92,7 +93,7 @@ df = pd.DataFrame(
     columns=["N = %i" % i for i in range(3, 9)],
     index=["M = %i" % i for i in range(3, 9)],
 )
-print(df.to_latex(float_format="%.2f"))
+print(df.to_markdown(floatfmt=".2f"))
 
 plt.imshow(hits)
 plt.title("P{MdB > NdB}")
