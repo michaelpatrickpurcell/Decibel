@@ -16,6 +16,12 @@ Suppose that  aplayer is making a simple 5dB check.
 The player rolls five twenty-sided dice and gets a result of {6,14,3,7,10}.
 The outcome of the check is 14 - 3 = 11.
 
+### Figure
+This figure depicts the distribution for the outcome of simple checks for various
+values of N.
+
+![Distribution of outcomes for simple checks](outcome_distributions.png)
+
 ## Standard Checks
 One shortcoming of simple checks is that the distributions of the outcome of all
 such checks are skewed in the same direction. Distributions that are skewed in the
@@ -35,12 +41,39 @@ twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player th
 discards the three dice with the greatest values which yields the intermediate result
 of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
 
+### Figure
+This figure depicts the distribution for the outcome of standard checks for various
+values of N and X = N-3.
+
+![Distribution of outcomes for standard checks](discard_distributions.png)
 
 ## Static Resolution
 In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
 target number. This is frequently called a "skill check" in many role playing systems.
 If the outcome of the Decibel check is greater than or equal to the target number,
 then the check is considered a success.  Otherwise, the check is considered a failure.
+
+### Table
+This table describes the probability of succeeding at a static resolution roll (i.e. NdB >= k) for various
+values of N and k.
+
+|       |   k = 0 |   k = 1 |   k = 2 |   k = 3 |   k = 4 |   k = 5 |   k = 6 |   k = 7 |   k = 8 |   k = 9 |
+|:------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|
+| N = 3 |    1.00 |    1.00 |    0.98 |    0.96 |    0.92 |    0.87 |    0.81 |    0.75 |    0.68 |    0.61 |
+| N = 4 |    1.00 |    1.00 |    1.00 |    0.99 |    0.98 |    0.96 |    0.93 |    0.90 |    0.85 |    0.79 |
+| N = 5 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    0.99 |    0.98 |    0.96 |    0.93 |    0.89 |
+| N = 6 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    0.99 |    0.98 |    0.97 |    0.94 |
+| N = 7 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    0.99 |    0.99 |    0.97 |
+| N = 8 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    1.00 |    0.99 |    0.99 |
+
+|       |   k = 10 |   k = 11 |   k = 12 |   k = 13 |   k = 14 |   k = 15 |   k = 16 |   k = 17 |   k = 18 |   k = 19 |
+|:------|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|---------:|
+| N = 3 |     0.54 |     0.46 |     0.39 |     0.32 |     0.25 |     0.18 |     0.13 |     0.08 |     0.04 |     0.01 |
+| N = 4 |     0.73 |     0.65 |     0.56 |     0.48 |     0.39 |     0.30 |     0.22 |     0.14 |     0.08 |     0.03 |
+| N = 5 |     0.84 |     0.78 |     0.70 |     0.62 |     0.52 |     0.42 |     0.31 |     0.21 |     0.12 |     0.04 |
+| N = 6 |     0.91 |     0.87 |     0.80 |     0.72 |     0.63 |     0.52 |     0.40 |     0.28 |     0.16 |     0.06 |
+| N = 7 |     0.95 |     0.92 |     0.87 |     0.80 |     0.72 |     0.61 |     0.49 |     0.35 |     0.21 |     0.08 |
+| N = 8 |     0.97 |     0.95 |     0.92 |     0.86 |     0.79 |     0.69 |     0.56 |     0.42 |     0.26 |     0.10 |
 
 ## Dynamic Resolution
 In a _dynamic resolution_ roll, the outcome of a Decibel check is compared with the
@@ -54,6 +87,19 @@ In this case, some method of breaking the tie may be required.  Simple options i
 re-rolling one or both checks until a winner can be declared, comparing the size of
 the dice pools used in the checks, or comparing the results of the dice in the dice
 pools that were not used to compute the outcome of the checks.
+
+### Table
+This table describes the probability of winning a dynamic resolution roll (i.e. MdB > NdB)
+for various values of M and N.
+
+|       |   N = 3 |   N = 4 |   N = 5 |   N = 6 |   N = 7 |   N = 8 |
+|:------|--------:|--------:|--------:|--------:|--------:|--------:|
+| M = 3 |    0.48 |    0.35 |    0.26 |    0.20 |    0.16 |    0.13 |
+| M = 4 |    0.60 |    0.46 |    0.37 |    0.30 |    0.24 |    0.20 |
+| M = 5 |    0.68 |    0.56 |    0.46 |    0.38 |    0.32 |    0.27 |
+| M = 6 |    0.75 |    0.63 |    0.54 |    0.45 |    0.39 |    0.34 |
+| M = 7 |    0.79 |    0.68 |    0.59 |    0.51 |    0.45 |    0.39 |
+| M = 8 |    0.82 |    0.73 |    0.64 |    0.56 |    0.50 |    0.44 |
 
 ## Modifiers
 A common feature of many role playing systems is _modifiers_.
@@ -75,3 +121,9 @@ variance of the outcome of a check decreases. That said, allowing positive and n
 modifiers to cancel each other out before applying the remaining modifiers leads to simpler
 accounting and more manageable dice pools. So, any game system that uses the Decibel dice
 system will need to specify how to handle opposing modifiers.
+
+### Figure
+This figure depicts the distribution of the outcome of a modified 3dB check for
+various amounts of positive and negative modifiers.
+
+![Distributions of outcomes for modified 3dB checks](modified_distributions.png)
