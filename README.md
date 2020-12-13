@@ -47,6 +47,33 @@ values of N and X = N-3.
 
 ![Distribution of outcomes for standard checks](discard_distributions.png)
 
+## Modifiers
+A common feature of many role playing systems is _modifiers_.
+There are two kinds of modifiers, positive and negative.  A positive modifier increases
+the probability that a player succeeds at a static resolution roll or wins a dynamic
+resolution roll. A negative modifier decreases the probability that a player succeeds
+at a static resolution roll or wins a dynamic resolution roll.
+In Decibel, as in many dice pool systems, modifiers change the composition of a dice
+pool before a check is made. Positive modifiers can be implemented by simply adding dice
+to the dice pool. That is, by increasing the value of N in a standard (N-X)dB check.
+Negative modifiers can be implemented by both adding dice to the dice pool and increasing
+the number of dice that are discarded before computing the outcome of the check.
+That is, by increasing both the value of N and X by the same amount in a standard
+(N-X)dB check.
+
+Notice that, because they both add dice to the dice pool, positive and negative modifiers
+do not simply cancel each other out.  In general, as the number of modifiers increases the
+variance of the outcome of a check decreases. That said, allowing positive and negative
+modifiers to cancel each other out before applying the remaining modifiers leads to simpler
+accounting and more manageable dice pools. So, any game system that uses the Decibel dice
+system will need to specify how to handle opposing modifiers.
+
+### Figure
+This figure depicts the distribution of the outcome of a modified 3dB check for
+various amounts of positive and negative modifiers.
+
+![Distributions of outcomes for modified 3dB checks](modified_distributions.png)
+
 ## Static Resolution
 In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
 target number. This is frequently called a "skill check" in many role playing systems.
@@ -75,17 +102,6 @@ values of N and k.
 | N = 7 |     0.95 |     0.92 |     0.87 |     0.80 |     0.72 |     0.61 |     0.49 |     0.35 |     0.21 |     0.08 |
 | N = 8 |     0.97 |     0.95 |     0.92 |     0.86 |     0.79 |     0.69 |     0.56 |     0.42 |     0.26 |     0.10 |
 
-### Degree of Success
-In some cases we may be interested in how well (or badly) an attempted task is
-accomplished instead of simply determining whether the attempt succeeded or failed.
-One natural way to accomplish this is to compute the difference between the outcome of
-a check and the target number. This difference is called the _degree of success_ for the
-check. Greater greater degrees of success correspond to better performance
-whilst lesser degrees of success correspond to worse performance. The interpretation of
-what a given degree of success means is task-specific. The players should, either
-by adopting formal mechanics or by informal agreement, decide on how to interpret the
-results before the dice are rolled.
-
 ## Dynamic Resolution
 In a _dynamic resolution_ roll, the outcome of a Decibel check is compared with the
 outcome of another Decibel check.  This is frequently called an "opposed roll" in many
@@ -112,32 +128,18 @@ for various values of M and N.
 | M = 7 |    0.79 |    0.68 |    0.59 |    0.51 |    0.45 |    0.39 |
 | M = 8 |    0.82 |    0.73 |    0.64 |    0.56 |    0.50 |    0.44 |
 
-## Modifiers
-A common feature of many role playing systems is _modifiers_.
-There are two kinds of modifiers, positive and negative.  A positive modifier increases
-the probability that a player succeeds at a static resolution roll or wins a dynamic
-resolution roll. A negative modifier decreases the probability that a player succeeds
-at a static resolution roll or wins a dynamic resolution roll.
-In Decibel, as in many dice pool systems, modifiers change the composition of a dice
-pool before a check is made. Positive modifiers can be implemented by simply adding dice
-to the dice pool. That is, by increasing the value of N in a standard (N-X)dB check.
-Negative modifiers can be implemented by both adding dice to the dice pool and increasing
-the number of dice that are discarded before computing the outcome of the check.
-That is, by increasing both the value of N and X by the same amount in a standard
-(N-X)dB check.
-
-Notice that, because they both add dice to the dice pool, positive and negative modifiers
-do not simply cancel each other out.  In general, as the number of modifiers increases the
-variance of the outcome of a check decreases. That said, allowing positive and negative
-modifiers to cancel each other out before applying the remaining modifiers leads to simpler
-accounting and more manageable dice pools. So, any game system that uses the Decibel dice
-system will need to specify how to handle opposing modifiers.
-
-### Figure
-This figure depicts the distribution of the outcome of a modified 3dB check for
-various amounts of positive and negative modifiers.
-
-![Distributions of outcomes for modified 3dB checks](modified_distributions.png)
+## Degree of Success
+In some cases we may be interested in how well (or badly) an attempted task is
+accomplished instead of simply determining whether the attempt succeeded or failed.
+One natural way to accomplish this for a static resolution roll is to compute the
+difference between the outcome of a check and the target number. Similarly, a simple way
+to accomplish this for a dynamic resolution roll is to compute the difference between
+the two checks. In either case, this difference is called the _degree of success_ for the
+resolution roll. Greater greater degrees of success correspond to better performance
+whilst lesser degrees of success correspond to worse performance. The interpretation of
+what a given degree of success means is task-specific. The players should, either
+by adopting formal mechanics or by informal agreement, decide on how to interpret the
+results before the dice are rolled.
 
 ## Secondary Effects
 The values of dice that are not used to compute the outcome of a check can be
