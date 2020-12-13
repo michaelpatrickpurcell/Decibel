@@ -175,7 +175,7 @@ plt.show()
 
 
 # ========================================================================================
-# Visualize distribution of the Nd6k3 alternative to Decibel
+# Visualize distribution of the roll-and-keep alternative to Decibel
 # ========================================================================================
 TRIALS = 2 ** 16
 
@@ -187,6 +187,29 @@ for N in range(3, 9):
     for k in c.keys():
         c[k] /= TRIALS
     plt.plot(*list(zip(*sorted(c.items()))), label="N = %i" % N)
+
+plt.legend()
+plt.show()
+
+# ========================================================================================
+# Visualize distribution of the secondary effect results
+# ========================================================================================
+TRIALS = 2 ** 22
+N = 3
+X = 0
+s = 10
+results = np.random.randint(0, s, size=(TRIALS, N))
+results.sort(axis=1)
+results = results[:, : (N - X)]
+outcomes = results[:, -1] - results[:, 0]
+secondary_outcomes = results[:, -2]
+
+combined_outcomes = np.zeros((s, s))
+for outcome, secondary_outcome in zip(outcomes, secondary_outcomes):
+    combined_outcomes[outcome, secondary_outcome] += 1
+
+for i in range(s):
+    plt.plot(combined_outcomes[i] / sum(combined_outcomes[i]), label="outcome = %i" % i)
 
 plt.legend()
 plt.show()
