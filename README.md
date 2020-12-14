@@ -68,6 +68,10 @@ negative modifiers to cancel each other out before applying the remaining modifi
 to simpler accounting and more manageable dice pools. So, any game system that uses the
 Decibel dice system will need to specify how to handle opposing modifiers.
 
+### Example
+Suppose that a player is making a 5dB check with one positive modifier and two negative
+modifiers.  The net result is that the player will make a (8-2)dB check.
+
 ### Figure
 This figure depicts the distribution of the outcome of a modified 3dB check for
 various amounts of positive and negative modifiers.
