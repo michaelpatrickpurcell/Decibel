@@ -62,11 +62,11 @@ That is, by increasing both the value of N and X by the same amount in a standar
 (N-X)dB check.
 
 Notice that, because they both add dice to the dice pool, positive and negative modifiers
-do not simply cancel each other out.  In general, as the number of modifiers increases the
-variance of the outcome of a check decreases. That said, allowing positive and negative
-modifiers to cancel each other out before applying the remaining modifiers leads to simpler
-accounting and more manageable dice pools. So, any game system that uses the Decibel dice
-system will need to specify how to handle opposing modifiers.
+do not simply cancel each other out.  In general, as the number of modifiers increases
+the variance of the outcome of a check decreases. That said, allowing positive and
+negative modifiers to cancel each other out before applying the remaining modifiers leads
+to simpler accounting and more manageable dice pools. So, any game system that uses the
+Decibel dice system will need to specify how to handle opposing modifiers.
 
 ### Figure
 This figure depicts the distribution of the outcome of a modified 3dB check for
@@ -81,8 +81,8 @@ If the outcome of the Decibel check is greater than or equal to the target numbe
 then the check is considered a success.  Otherwise, the check is considered a failure.
 
 ### Table
-This table describes the probability of succeeding at a static resolution roll (i.e. NdB >= k) for various
-values of N and k.
+This table describes the probability of succeeding at a static resolution roll
+(i.e. NdB >= k) for various values of N and k.
 
 |       |   k = 0 |   k = 1 |   k = 2 |   k = 3 |   k = 4 |   k = 5 |   k = 6 |   k = 7 |   k = 8 |   k = 9 |
 |:------|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|--------:|
@@ -143,8 +143,32 @@ results before the dice are rolled.
 
 ## Secondary Effects
 The values of dice that are not used to compute the outcome of a check can be
-be used to determine whether any _secondary effects_ occur as a part of the check.  
+be used to determine whether any _secondary effects_ occur as a part of the check.
+Because dice pools may have as few as three dice, two of which will be used to compute
+the outcome of the check, secondary effects may need to be determined by the value of a
+single die. One way to accomplish this is to use the largest value that was not used to
+determine the outcome of the check to govern any secondary effects.
+
+### Example
+Suppose that a player is making a 4dB check. The player rolls four twenty-sided dice
+and gets a result of {17, 3, 11, 15}.  The outcome of the check is 17 - 3 = 14.
+Discarding the two dice used to compute the outcome of the check yields a result of
+{11,15}.  The value that governs any secondary effects is 15.
 
 ## Compound Checks
-If a dice pool consists of five or more dice then it can be used to resolve more than
-one check with a single roll.
+In a _compound check_ a dice pool is used to resolve more than one check with a single
+roll. To do so, compute the outcome of the first check as normal. Then discard the two
+dice whose values were used to compute the first outcome and treat the remaining dice
+as if they were the result of a simple check.
+
+Notice that even if the first check is a standard check (X > 0), all subsequent checks
+are simple checks (X = 0).  That is, dice are only discarded once prior to computing the
+outcome of the first check. Therefore, if five or more dice remain after discarding the
+required number of dice, then that dice pool can be used to make a compound check.
+
+### Example
+Suppose that a player is making a (6-1)dB check.  The player rolls six twenty-sided dice
+and gets a result of {6, 2, 19, 13, 5, 8}.  They then discard the die with the greatest
+value which yields the intermediate result of {6, 2, 13, 5, 8}.  The outcome of the first
+check is 13 - 2 = 11. Discarding the two dice used to compute the outcome of the first
+check yields a result of {6, 5, 8}. The outcome of the second check is 8 - 5 = 3.
