@@ -8,15 +8,15 @@ We will write NdB to denote the outcome of a simple check made with a pool of N 
 
 Notice that while the set of possible outcomes (i.e. {0, 1, ..., 19}) is always the same,
 the size of the pool determines the distribution of the outcome of a check.
-In general, larger dice pools are more likely to produce greater outcomes than smaller
-dice pools.
+In general, a larger dice pool is more likely to produce greater outcomes than a smaller
+dice pool.
 
-### Example
+#### Example
 Suppose that a player is making a simple 5dB check.
 The player rolls five twenty-sided dice and gets a result of {6,14,3,7,10}.
 The outcome of the check is 14 - 3 = 11.
 
-### Figure
+#### Figure
 This figure depicts the distribution for the outcome of simple checks for various
 values of N.
 
@@ -35,13 +35,13 @@ Notice that a standard (N-X)dB check is not the same as a simple MdB check where
 M = N-X. The distributions of the outcomes of these two checks are generally quite
 different.
 
-### Example
+#### Example
 Suppose a player is making a standard (7-3)dB check.  The player rolls seven
 twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
 discards the three dice with the greatest values which yields the intermediate result
 of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
 
-### Figure
+#### Figure
 This figure depicts the distribution for the outcome of standard checks for various
 values of N and X = N-3.
 
@@ -68,11 +68,11 @@ negative modifiers to cancel each other out before applying the remaining modifi
 to simpler accounting and more manageable dice pools. So, any game system that uses the
 Decibel dice system will need to specify how to handle opposing modifiers.
 
-### Example
+#### Example
 Suppose that a player is making a 5dB check with one positive modifier and two negative
 modifiers.  The net result is that the player will make a (8-2)dB check.
 
-### Figure
+#### Figure
 This figure depicts the distribution of the outcome of a modified 3dB check for
 various amounts of positive and negative modifiers.
 
@@ -84,7 +84,7 @@ target number. This is frequently called a "skill check" in many role playing sy
 If the outcome of the Decibel check is greater than or equal to the target number,
 then the check is considered a success.  Otherwise, the check is considered a failure.
 
-### Table
+#### Table
 This table describes the probability of succeeding at a static resolution roll
 (i.e. NdB >= k) for various values of N and k.
 
@@ -119,7 +119,7 @@ re-rolling one or both checks until a winner can be declared, comparing the size
 the dice pools used in the checks, or comparing the results of the dice in the dice
 pools that were not used to compute the outcome of the checks.
 
-### Table
+#### Table
 This table describes the probability of winning a dynamic resolution roll (i.e. MdB > NdB)
 for various values of M and N.
 
@@ -145,6 +145,12 @@ what a given degree of success means is task-specific. The players should, eithe
 by adopting formal mechanics or by informal agreement, decide on how to interpret the
 results before the dice are rolled.
 
+#### Example
+Suppose a player is making a 5dB check as part of a static resolution roll against a
+target number of 13.  The player rolls five twenty-sided dice and gets a result of
+{20, 5, 12, 8, 17}. The outcome of the check is 20 - 5 = 15.  The check is successful
+and the degree of success is 15 - 13 = 2.
+
 ## Secondary Effects
 The values of dice that are not used to compute the outcome of a check can be
 be used to determine whether any _secondary effects_ occur as a part of the check.
@@ -153,7 +159,7 @@ the outcome of the check, secondary effects may need to be determined by the val
 single die. One way to accomplish this is to use the largest value that was not used to
 determine the outcome of the check to govern any secondary effects.
 
-### Example
+#### Example
 Suppose that a player is making a 4dB check. The player rolls four twenty-sided dice
 and gets a result of {17, 3, 11, 15}.  The outcome of the check is 17 - 3 = 14.
 Discarding the two dice used to compute the outcome of the check yields a result of
@@ -170,7 +176,7 @@ are simple checks (X = 0).  That is, dice are only discarded once prior to compu
 outcome of the first check. Therefore, if five or more dice remain after discarding the
 required number of dice, then that dice pool can be used to make a compound check.
 
-### Example
+#### Example
 Suppose that a player is making a (6-1)dB check.  The player rolls six twenty-sided dice
 and gets a result of {6, 2, 19, 13, 5, 8}.  They then discard the die with the greatest
 value which yields the intermediate result of {6, 2, 13, 5, 8}.  The outcome of the first
