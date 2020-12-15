@@ -166,10 +166,10 @@ by adopting formal mechanics or by informal agreement, decide on how to interpre
 results before the dice are rolled.
 
 #### Example
-Suppose a player is making a 5dB check as part of a static resolution roll with a 
+Suppose a player is making a 5dB check as part of a static resolution roll with a
 target number of 13.  The player rolls five twenty-sided dice and gets a result of
-{20, 17, 12, 8, 5}. The outcome of the check is 20 - 5 = 15.  The check is successful
-and the degree of success is 15 - 13 = 2.
+{20, 17, 12, 8, 5}. The outcome of the check is 20 - 5 = 15.  The degree of success is
+15 - 13 = 2.
 
 ## Secondary Effects
 The values of dice that are not used to compute the outcome of a check can be
