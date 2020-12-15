@@ -1,4 +1,4 @@
-# Decibel: A dice mechanic for tabletop role playing games.
+# Decibel: A dice mechanic for tabletop role playing games
 Dice mechanics lie at the heart of many tabletop role playing games. These mechanics
 are often part of a resolution system that players use to determine what actually
 happens in the game when their characters attempt to do something risky. These
@@ -8,16 +8,17 @@ the character's degree of success.
 
 Decibel is a generic dice mechanic that can serve as the chassis on which a complete
 tabletop role playing game can be built.  It is a _dice pool_ mechanic.  To use Decibel
-as part of a resolution system, players make a Decibel _check_ which consists of three
-steps:
+as part of a resolution system, players make a _check_ which consists of three steps:
 
   1. Assemble a pool of twenty-sided dice;
-  2. Roll the dice and sort the resulting values from low to high;
+  2. Roll the dice and sort the resulting values from smallest to largest;
   3. Compute the outcome of the check.  
 
 The size of the dice pool depends on the action being attempted and any circumstances
 that might affect a characters performance. The outcome of the check is the difference
-between the largest and smallest values of the rolled dice.
+between the largest and smallest values of the rolled dice. This outcome is then compared
+to some other quantity, which could be a fixed _target number_ or the outcome of another
+check, to determine what happens in the game.  
 
 ## Simple Checks
 To make a _simple check_, players roll a pool of three or more twenty-sided dice (d20s).
@@ -31,7 +32,7 @@ dice pool.
 
 #### Example
 Suppose that a player is making a simple 5dB check.
-The player rolls five twenty-sided dice and gets a result of {6,14,3,7,10}.
+The player rolls five twenty-sided dice and gets a result of {6, 14, 3, 7, 10}.
 The outcome of the check is 14 - 3 = 11.
 
 #### Figure
