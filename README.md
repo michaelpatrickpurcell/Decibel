@@ -11,7 +11,7 @@ tabletop role playing game can be built.  It is a _dice pool_ mechanic.  To use 
 as part of a resolution system, players make a _check_ which consists of three steps:
 
   1. Assemble a pool of twenty-sided dice;
-  2. Roll the dice and sort the resulting values from smallest to largest;
+  2. Roll the dice and sort the resulting values from largest to smallest;
   3. Compute the outcome of the check.  
 
 The size of the dice pool depends on the action being attempted and any circumstances
@@ -22,8 +22,9 @@ check, to determine what happens in the game.
 
 ## Simple Checks
 To make a _simple check_, players roll a pool of three or more twenty-sided dice (d20s).
-The outcome of the check is the difference between the largest and smallest values.
-We will write NdB to denote the outcome of a simple check made with a pool of N dice.
+The outcome of the check is the difference between the largest and smallest values of
+the rolled dice. We will write NdB to denote the outcome of a simple check made with a
+pool of N dice.
 
 Notice that while the set of possible outcomes (i.e. {0, 1, ..., 19}) is always the same,
 the size of the pool determines the distribution of the outcome of a check.
@@ -32,7 +33,7 @@ dice pool.
 
 #### Example
 Suppose that a player is making a simple 5dB check.
-The player rolls five twenty-sided dice and gets a result of {6, 14, 3, 7, 10}.
+The player rolls five twenty-sided dice and gets a result of {14, 10, 7, 6, 3}.
 The outcome of the check is 14 - 3 = 11.
 
 #### Figure
@@ -56,9 +57,9 @@ different.
 
 #### Example
 Suppose a player is making a standard (7-3)dB check.  The player rolls seven
-twenty-sided dice and gets a result of {4, 18, 7, 10, 11, 15, 6}.  The player then
+twenty-sided dice and gets a result of {18, 15, 11, 10, 7, 6, 4}.  The player then
 discards the three dice with the greatest values which yields the intermediate result
-of {4, 7, 10, 6}.   The outcome of the check is 10-4 = 6.
+of {10, 7, 6, 4}.   The outcome of the check is 10-4 = 6.
 
 #### Figure
 This figure depicts the distribution for the outcome of standard checks for various
@@ -167,7 +168,7 @@ results before the dice are rolled.
 #### Example
 Suppose a player is making a 5dB check as part of a static resolution roll against a
 target number of 13.  The player rolls five twenty-sided dice and gets a result of
-{20, 5, 12, 8, 17}. The outcome of the check is 20 - 5 = 15.  The check is successful
+{20, 17, 12, 8, 5}. The outcome of the check is 20 - 5 = 15.  The check is successful
 and the degree of success is 15 - 13 = 2.
 
 ## Secondary Effects
@@ -180,9 +181,9 @@ determine the outcome of the check to govern any secondary effects.
 
 #### Example
 Suppose that a player is making a 4dB check. The player rolls four twenty-sided dice
-and gets a result of {17, 3, 11, 15}.  The outcome of the check is 17 - 3 = 14.
+and gets a result of {17, 15, 11, 3}.  The outcome of the check is 17 - 3 = 14.
 Discarding the two dice used to compute the outcome of the check yields a result of
-{11,15}.  The value that governs any secondary effects is 15.
+{15, 11}.  The value that governs any secondary effects is 15.
 
 ## Compound Checks
 In a _compound check_ a dice pool is used to resolve more than one check with a single
@@ -197,7 +198,7 @@ required number of dice, then that dice pool can be used to make a compound chec
 
 #### Example
 Suppose that a player is making a (6-1)dB check.  The player rolls six twenty-sided dice
-and gets a result of {6, 2, 19, 13, 5, 8}.  They then discard the die with the greatest
-value which yields the intermediate result of {6, 2, 13, 5, 8}.  The outcome of the first
+and gets a result of {19, 13, 8, 6, 5, 2}.  They then discard the die with the greatest
+value which yields the intermediate result of {13, 8, 6, 5, 2}.  The outcome of the first
 check is 13 - 2 = 11. Discarding the two dice used to compute the outcome of the first
-check yields a result of {6, 5, 8}. The outcome of the second check is 8 - 5 = 3.
+check yields a result of {8, 6, 5}. The outcome of the second check is 8 - 5 = 3.
