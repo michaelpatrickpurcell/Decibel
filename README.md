@@ -199,6 +199,7 @@ required number of dice, then that dice pool can be used to make a compound chec
 #### Example
 Suppose that a player is making a (6-1)dB check.  The player rolls six twenty-sided dice
 and gets a result of {19, 13, 8, 6, 5, 2}.  They then discard the die with the greatest
-value which yields the intermediate result of {13, 8, 6, 5, 2}.  The outcome of the first
+value which yields an intermediate result of {13, 8, 6, 5, 2}.  The outcome of the first
 check is 13 - 2 = 11. Discarding the two dice used to compute the outcome of the first
-check yields a result of {8, 6, 5}. The outcome of the second check is 8 - 5 = 3.
+check yields an intermediate result of {8, 6, 5}. The outcome of the second check is
+8 - 5 = 3.
