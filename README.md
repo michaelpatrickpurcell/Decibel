@@ -67,7 +67,7 @@ values of N and X = N-3.
 ![Distribution of outcomes for standard checks](discard_distributions.png)
 
 ## Modifiers
-A common feature of many role playing systems is _modifiers_.
+A common feature of dice mechanics used in many role playing systems is _modifiers_.
 There are two kinds of modifiers, positive and negative.  A positive modifier increases
 the probability that a player succeeds at a static resolution roll or wins a dynamic
 resolution roll. A negative modifier decreases the probability that a player succeeds
