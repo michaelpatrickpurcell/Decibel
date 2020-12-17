@@ -40,7 +40,7 @@ The outcome of the check is 14 - 3 = 11.
 This figure depicts the distribution for the outcome of simple checks for various
 values of N.
 
-<img src="outcome_distributions.png" width="750" height="550">
+<img src="outcome_distributions.png" height="550">
 
 ## Standard Checks
 One shortcoming of simple checks is that the distributions of the outcome of all
