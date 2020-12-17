@@ -42,6 +42,8 @@ values of N.
 
 ![Distribution of outcomes for simple checks](outcome_distributions.png)
 
+<img src="https://github.com/michaelpatrickpurcell/Decibel/blob/master/outcome_distributions.png", width=300>
+
 ## Standard Checks
 One shortcoming of simple checks is that the distributions of the outcome of all
 such checks are skewed in the same direction. Distributions that are skewed in the
