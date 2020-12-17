@@ -18,8 +18,8 @@ which they are performed. During each round:
   4. All of the players will use the result of these rolls to determine initiative order.
   5. In descending initiative order, each player will resolve their character's action.  
 
-Details of how [initiative](## initiative) order is determined, what kinds of
-[actions](## actions) can be attempted in combat, and how those actions should be resolved
+Details of how [initiative](##initiative) order is determined, what kinds of
+[actions](##actions) can be attempted in combat, and how those actions should be resolved
 are given below.   
 
 ## Initiative
@@ -30,13 +30,13 @@ checks. That is, a character's initiative during each round is determined by the
 value that was not used to determine the outcome of their action check for that round.
 Actions are resolved in descending initiative order.
 
-## Actions
+##Actions
 A round represents several seconds during which each character involved in a combat
 encounter has an opportunity to take a single action. There are two kinds of actions
-that a character can take during a round: [attack](### attack) and
-[manoeuvre](### manoeuvre).
+that a character can take during a round: [attack](###attack) and
+[manoeuvre](###manoeuvre).
 
-### Attack
+###Attack
 An attack is any action taken during combat with the intention of damaging another
 character. Attacks are resolved using static resolution rolls that are used to determine
 if a character is successful in their attempt to attack another character.  The size of
