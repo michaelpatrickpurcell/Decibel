@@ -5,18 +5,18 @@ can be used as part of a traditional tabletop role playing game system.
 The mechanical focus of many such games is on the rules governing how combat works.
 One common paradigm is to subdivide a combat encounter into a sequence of rounds.
 During each round, each character has an opportunity to act.  On a player's turn, they
-will decide what action their character will take and then resolve that action
+decide what action their character will take and then resolve that action
 immediately. Characters act in some initiative order that is the same
 during each round and determined by some independent preliminary process.
 
 In this example, we will use these same basic components but rearrange the order in
 which they are performed. During each round:
   1. All of the players decide what actions their characters will attempt to perform.
-  2. All of the players will declare their characters' intentions.
-  3. All of the players will assemble a dice pool that will be used to resolve their
+  2. All of the players declare their characters' intentions.
+  3. All of the players assemble a dice pool that will be used to resolve their
      character's action and roll the dice.
-  4. All of the players will use the results of these rolls to determine initiative order.
-  5. In descending initiative order, each player will resolve their character's action.  
+  4. All of the players use the results of these rolls to determine initiative order.
+  5. In descending initiative order, each player resolves their character's action.  
 
 Details of how initiative order is determined, what kinds of actions can be attempted
 in combat, and how those actions should be resolved are given below.   
