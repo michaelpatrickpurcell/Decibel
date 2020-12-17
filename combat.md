@@ -25,10 +25,11 @@ are given below.
 ## Initiative
 The order in which actions occur changes from round to round and is determined by the
 characters' initiative. Every action during combat requires a check to determine how
-successfully that action was accomplished. Initiative is a secondary effect of these
-checks. That is, a character's initiative during each round is determined by the largest
-value that was not used to determine the outcome of their action check for that round.
-Actions are resolved in descending initiative order.
+successfully that action was accomplished. Initiative is a
+[secondary effect](README.md#secondary-effects)
+of these checks. That is, a character's initiative during each round is determined by
+the largest value that was not used to determine the outcome of their action check for
+that round. Actions are resolved in descending initiative order.
 
 ## Actions
 A round represents several seconds during which each character involved in a combat
@@ -56,7 +57,8 @@ attack roll. If the outcome of the attack roll check is equal to the defending
 character's defence rating, then the attack succeeds but deals no damage.
 
 If the dice pool used to resolve a character's action is large enough, then it can be
-used to make multiple attacks in a single round using the rules for compound checks.
+used to make multiple attacks in a single round using the rules for
+[compound checks](README.md#compound-checks).
 While all of the attacks occur on the same initiative each attack is resolved
 independently and each attack can be made against a different defending character.
 
