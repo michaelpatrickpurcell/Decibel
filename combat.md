@@ -39,21 +39,24 @@ that a character can take during a round: [attack](#attack) and
 
 ### Attack
 An attack is any action taken during combat with the intention of damaging another
-character. Attacks are resolved using static resolution rolls that are used to determine
-if a character is successful in their attempt to attack another character.  The size of
-the dice pool used for the check is determined by the attacking characters attack skill
-while the target number for the check is determined the defending character's defence
-rating.
+character. Attacks are resolved using
+[static resolution](README.md#static-resolution)
+rolls that are used to determine if a character is successful in their attempt to
+attack another character.  The size of the dice pool used for the check is determined
+by the attacking characters attack skill while the target number for the check is
+determined the defending character's defence rating.
 
-Modifiers can be applied to attack roll checks.  Weapons used to make the attack and
+[Modifiers](README.md#modifiers)
+can be applied to attack roll checks.  Weapons used to make the attack and
 tactically advantageous circumstances could contribute positive modifiers to the check.
 Tactically disadvantageous circumstances could contribute negative modifiers to the
 check. The effects of armour are generally incorporated into the defending character's
 defence rating rather than directly affecting the dice pool used to make the check.
 
 If an attack is successful, then the attacking character will deal damage to the
-defending character.  The damage dealt is equal to the degree of success of the
-attack roll. If the outcome of the attack roll check is equal to the defending
+defending character.  The damage dealt is equal to the
+[degree of success](README.md(#degree-of-success)
+of the attack roll. If the outcome of the attack roll check is equal to the defending
 character's defence rating, then the attack succeeds but deals no damage.
 
 If the dice pool used to resolve a character's action is large enough, then it can be
