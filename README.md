@@ -7,8 +7,8 @@ inherent in the proposed action and their outcome provides an objective measure 
 the character's degree of success.
 
 Decibel is a generic dice mechanic that can serve as the chassis on which a complete
-tabletop role playing game can be built.  It is a _dice pool_ mechanic.  To use Decibel
-as part of a resolution system, players make a _check_ which consists of three steps:
+tabletop role playing game can be built.  It is a dice pool mechanic.  To use Decibel
+as part of a resolution system, players make a check which consists of three steps:
 
   1. Assemble a pool of twenty-sided dice;
   2. Roll the dice and sort the resulting values from largest to smallest;
@@ -17,7 +17,7 @@ as part of a resolution system, players make a _check_ which consists of three s
 The size of the dice pool depends on the action being attempted and any circumstances
 that might affect a characters performance. The outcome of the check is the difference
 between the largest and smallest values of the rolled dice. This outcome is then compared
-to some other quantity, which could be a fixed _target number_ or the outcome of another
+to some other quantity, which could be a fixed target number or the outcome of another
 check, to determine what happens in the game.  
 
 ## Simple Checks
