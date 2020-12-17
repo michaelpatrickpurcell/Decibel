@@ -23,7 +23,7 @@ in combat, and how those actions should be resolved are given below.
 
 ## Initiative
 The order in which actions occur changes from round to round and is determined by the
-characters' initiative. Every action during combat requires a check to determine how
+characters' _initiative_. Every action during combat requires a check to determine how
 successfully that action was accomplished. Initiative is a
 [secondary effect](README.md#secondary-effects)
 of these checks. That is, a character's initiative during each round is determined by
@@ -32,11 +32,11 @@ that round. Actions are resolved in descending initiative order.
 
 ## Actions
 A round represents several seconds during which each character involved in a combat
-encounter has an opportunity to take a single action. There are two kinds of actions
+encounter has an opportunity to take a single _action_. There are two kinds of actions
 that a character can take during a round: attack and manoeuvre.
 
 ### Attack
-An attack is any action taken during combat with the intention of damaging another
+An _attack_ is any action taken during combat with the intention of damaging another
 character. Attacks are resolved using
 [static resolution](README.md#static-resolution)
 rolls that are used to determine if a character is successful in their attempt to
@@ -64,7 +64,7 @@ While all of the attacks occur on the same initiative each attack is resolved
 independently and each attack can be made against a different defending character.
 
 ### Manoeuvre
-A manoeuvre is any action taken in combat which is not an attack. Typical examples
+A _manoeuvre_ is any action taken in combat which is not an attack. Typical examples
 include: moving, interacting with an object, or using a skill.  Any action that a
 character attempts during combat requires a check. Any action that the players deem too
 trivial to require a check and that can be reasonably accomplished during a single round
