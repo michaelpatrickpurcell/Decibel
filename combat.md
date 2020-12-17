@@ -72,20 +72,23 @@ should not in itself constitute a manoeuvre action.  Similarly, shouting a brief
 to a comrade should not require a manoeuvre action but attempting to negotiate a
 ceasefire in the heat of battle certainly should.
 
-Some manoeuvre actions can be resolved using static resolution rolls. This is
-appropriate when an action can be accomplished regardless of whether other characters
-accomplish their goals during a given round.  For example, if a character tries to
-swing above across a room on a chandelier or a character tries to lift a boulder off of
-a fallen companion as an ancient temple collapses around them then a static resolution
-roll would be appropriate.
+Some manoeuvre actions can be resolved using
+[static resolution](README.md#static-resolution)
+rolls. This is appropriate when an action can be accomplished regardless of whether
+other characters accomplish their goals during a given round.  For example, if a character
+tries to swing above across a room on a chandelier or a character tries to lift a boulder
+off of a fallen companion as an ancient temple collapses around them then a static
+resolution roll would be appropriate.
 
 Other manoeuvre actions pit two or more characters against one another in direct
 opposition. That is, the characters' goals are mutually exclusive and if one character
 accomplishes their goal then the other characters must necessarily fail to accomplish
-theirs. In such cases, dynamic resolution rolls are more appropriate. For example,
-if two characters lock blades during a duel and are struggling to gain an advantage
-or if several characters are racing to be the first to grab an ancient artefact
-from an ancient altar, then a dynamic resolution roll would be appropriate.  
+theirs. In such cases,
+[dynamic resolution](README.md#dynamic-resolution)
+rolls are more appropriate. For example, if two characters lock blades during a duel
+and are struggling to gain an advantage or if several characters are racing to be the
+first to grab an artefact from an ancient altar, then a dynamic resolution roll would
+be appropriate.  
 
 In the case of opposed manoeuvre actions, the actions of all of the characters involved
 are resolved on the winning character's initiative.  
