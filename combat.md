@@ -88,8 +88,8 @@ theirs. In such cases,
 [dynamic resolution](README.md#dynamic-resolution)
 rolls are more appropriate. For example, if two characters lock blades during a duel
 and are struggling to gain an advantage or if several characters are racing to be the
-first to grab an artefact from an ancient altar, then a dynamic resolution roll would
-be appropriate.  
+first to grab an ancient artefact from a dragon's hoard, then a dynamic resolution roll
+would be appropriate.  
 
 In the case of opposed manoeuvre actions, the actions of all of the characters involved
 are resolved on the winning character's initiative.  
