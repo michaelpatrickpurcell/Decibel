@@ -1,4 +1,4 @@
-# Example 1: Combat
+# Combat
 This example shows how
 [Decibel](README.md)
 can be used as part of a traditional tabletop role playing game system.
