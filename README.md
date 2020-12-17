@@ -65,7 +65,7 @@ of {10, 7, 6, 4}.   The outcome of the check is 10-4 = 6.
 This figure depicts the distribution for the outcome of standard checks for various
 values of N and X = N-3.
 
-<img src="https://github.com/michaelpatrickpurcell/Decibel/blob/master/discard_distributions.png" width="750" height="550">
+<img src="discard_distributions.png" width="750" height="550">
 
 ## Modifiers
 A common feature of dice mechanics used in many role playing systems is _modifiers_.
