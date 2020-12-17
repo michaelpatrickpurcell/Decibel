@@ -15,7 +15,7 @@ which they are performed. During each round:
   2. All of the players will declare their characters' intentions.
   3. All of the players will assemble a dice pool that will be used to resolve their
      character's action and roll the dice.
-  4. All of the players will use the result of these rolls to determine initiative order.
+  4. All of the players will use the results of these rolls to determine initiative order.
   5. In descending initiative order, each player will resolve their character's action.  
 
 Details of how initiative order is determined, what kinds of actions can be attempted
