@@ -1,6 +1,6 @@
 # Example 1: Combat
-This example shows how the
-[generic Decibel mechanics](README.md)
+This example shows how
+[Decibel](README.md)
 can be used as part of a traditional tabletop role playing game system.
 The mechanical focus of many such games is on the rules governing how combat works.
 One common paradigm is to subdivide a combat encounter into a sequence of rounds.
