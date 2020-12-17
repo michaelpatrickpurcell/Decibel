@@ -58,7 +58,7 @@ character's defence rating, then the attack succeeds but deals no damage.
 
 If the dice pool used to resolve a character's action is large enough, then it can be
 used to make multiple attacks in a single round using the rules for
-[compound checks](https://github.com/michaelpatrickpurcell/Decibel/blob/master/README.md#compound-checks).
+[compound checks](README.md#compound-checks).
 While all of the attacks occur on the same initiative each attack is resolved
 independently and each attack can be made against a different defending character.
 
