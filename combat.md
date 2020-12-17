@@ -53,7 +53,7 @@ defence rating rather than directly affecting the dice pool used to make the che
 
 If an attack is successful, then the attacking character will deal damage to the
 defending character.  The damage dealt is equal to the
-[degree of success](README.md(#degree-of-success)
+[degree of success](README.md#degree-of-success)
 of the attack roll. If the outcome of the attack roll check is equal to the defending
 character's defence rating, then the attack succeeds but deals no damage.
 
