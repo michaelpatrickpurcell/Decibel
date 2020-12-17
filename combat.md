@@ -1,12 +1,13 @@
 # Example 1: Combat
-This example shows how the [generic Decibel mechanics](https://github.com/michaelpatrickpurcell/Decibel/blob/master/README.md)
+This example shows how the
+[generic Decibel mechanics](https://github.com/michaelpatrickpurcell/Decibel/blob/master/README.md)
 can be used as part of a traditional tabletop role playing game system.
 The mechanical focus of many such games is on the rules governing how combat works.
-One common paradigm is to subdivide a combat encounter into a sequence of _rounds_.
+One common paradigm is to subdivide a combat encounter into a sequence of rounds.
 During each round, each character has an opportunity to act.  On a player's turn, they
 will decide what action their character will take and then resolve that action
-immediately. Characters act in some _initiative_ order that is the same during each round
-and determined by some independent preliminary process.
+immediately. Characters act in some initiative order that is the same
+during each round and determined by some independent preliminary process.
 
 In this example, we will use these same basic components but rearrange the order in
 which they are performed. During each round:
@@ -17,8 +18,9 @@ which they are performed. During each round:
   4. All of the players will use the result of these rolls to determine initiative order.
   5. In descending initiative order, each player will resolve their character's action.  
 
-Details of how initiative order is determined, what kinds of actions can be attempted,
-and how those actions should be resolved are given below.   
+Details of how [initiative](##initiative) order is determined, what kinds of
+[actions](##actions) can be attempted in combat, and how those actions should be resolved
+are given below.   
 
 ## Initiative
 The order in which actions occur changes from round to round and is determined by the
@@ -31,7 +33,8 @@ Actions are resolved in descending initiative order.
 ## Actions
 A round represents several seconds during which each character involved in a combat
 encounter has an opportunity to take a single action. There are two kinds of actions
-that a character can take during a round: _attack_ and _manoeuvre_.
+that a character can take during a round: [attack](###attack) and
+[manoeuvre](###manoeuvre).
 
 ### Attack
 An attack is any action taken during combat with the intention of damaging another
