@@ -40,8 +40,6 @@ The outcome of the check is 14 - 3 = 11.
 This figure depicts the distribution for the outcome of simple checks for various
 values of N.
 
-![Distribution of outcomes for simple checks](outcome_distributions.png)
-
 <img src="https://github.com/michaelpatrickpurcell/Decibel/blob/master/outcome_distributions.png" width="750">
 
 ## Standard Checks
@@ -67,7 +65,7 @@ of {10, 7, 6, 4}.   The outcome of the check is 10-4 = 6.
 This figure depicts the distribution for the outcome of standard checks for various
 values of N and X = N-3.
 
-![Distribution of outcomes for standard checks](discard_distributions.png)
+<img src="https://github.com/michaelpatrickpurcell/Decibel/blob/master/discard_distributions.png" width="750">
 
 ## Modifiers
 A common feature of dice mechanics used in many role playing systems is _modifiers_.
@@ -98,7 +96,7 @@ modifiers.  The net result is that the player will make a (8-2)dB check.
 This figure depicts the distribution of the outcome of a modified 3dB check for
 various amounts of positive and negative modifiers.
 
-![Distributions of outcomes for modified 3dB checks](modified_distributions.png)
+<img src="https://github.com/michaelpatrickpurcell/Decibel/blob/master/modified_distributions.png" width="750">
 
 ## Static Resolution
 In a _static resolution_ roll, the outcome of a Decibel check is compared to a fixed
