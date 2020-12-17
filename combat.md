@@ -91,5 +91,5 @@ and are struggling to gain an advantage or if several characters are racing to b
 first to grab an ancient artefact from a dragon's hoard, then a dynamic resolution roll
 would be appropriate.  
 
-In the case of opposed manoeuvre actions, the actions of all of the characters involved
+In the case of opposed manoeuvres, the actions of all of the characters involved
 are resolved on the winning character's initiative.  
