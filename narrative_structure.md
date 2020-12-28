@@ -38,35 +38,35 @@ A _session_ is made up of a series of encounters. At the beginning of each sessi
 ##### Fancy mermaid flowchart format
 ```mermaid
 graph BT;
-id0[Destroy the Death Star];
-id0 --- id1[Use the Force];
-        id1 ------ id5[Train to Become a Jedi];
+0[Destroy the Death Star];
+0 --- 1[Use The Force];
+      1 ------ 5[Train to Become a Jedi];
 
-id0 ---- id2[Engage Enemy Fighters];
+0 ---- 2[Engage Enemy Fighters];
 
-id0 ----- id3[Identify a Critical Weakness];
-          id3 --- id4[Rescue the Princess];
-          id3 ----- id6[Acquire the Schematics];
+0 ----- 3[Identify a Critical Weakness];
+        3 --- 4[Rescue the Princess];
+        3 ----- 6[Acquire the Schematics];
 ```
 
 ##### (GitHub + Mermaid) Chrome extension flowchart
 ```mermaid
 graph BT;
-id0[Destroy the Death Star];
-id0 --- id1[Use the Force];
-        id1 --- id5[Train to Become a Jedi];
+0[Destroy the Death Star];
+0 --- 1[Use The Force];
+      1 --- 5[Train to Become a Jedi];
 
-id0 --- id2[Engage Enemy Fighters];
+0 --- 2[Engage Enemy Fighters];
 
-id0 --- id3[Identify a Critical Weakness];
-        id3 --- id4[Rescue the Princess];
-        id3 --- id6[Acquire the Schematics];
+0 --- 3[Identify a Critical Weakness];
+        3 --- 4[Rescue the Princess];
+        3 --- 6[Acquire the Schematics];
 ```
 
 ##### ASCII directory tree format
 ```
 Destroy the Death Star
-|   |-- Use "The Force"
+|   |-- Use The Force
 |   |   |-- Train to Become a Jedi
 |   |   
 |   |-- Identify a Critical Weakness
