@@ -66,9 +66,9 @@ independently and each attack can be made against a different defending characte
 ### Manoeuvre
 A _manoeuvre_ is any action taken in combat which is not an attack. Typical examples
 include: moving, interacting with an object, or using a skill.  Any action that a
-character attempts during combat requires a check. Any action that the players deem too
+character attempts during combat requires a check. Any activity that the players deem too
 trivial to require a check and that can be reasonably accomplished during a single round
-can be done "for free" in addition to another action. For example, drawing a weapon
+can be done "for free" in addition to a "real" action. For example, drawing a weapon
 should not in itself constitute a manoeuvre action.  Similarly, shouting a brief warning
 to a comrade should not require a manoeuvre action but attempting to negotiate a
 ceasefire in the heat of battle certainly should.
