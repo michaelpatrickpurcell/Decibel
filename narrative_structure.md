@@ -40,7 +40,7 @@ graph TD;
     id6[Acquire]-->id3[Identify];
     id5[Train]-->id1[Use];
     id4[Rescue]-->id3;
-    id3-->id0{{Destroy}};
+    id3-->id0[Destroy];
     id2[Engage Enemy Fighters]-->id0;
     id1-->id0;
 ```
