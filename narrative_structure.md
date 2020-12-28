@@ -35,35 +35,9 @@ generated in the same way as the original encounter.
 A _session_ is made up of a series of encounters. At the beginning of each session, one of the players describes an encounter that will serve as the _climax_ of the story that the players will tell during that session.
 
 #### Example: Star Wars
-##### Fancy mermaid flowchart format
-```mermaid
-graph BT;
-0[Destroy the Death Star];
-0 --- 1[Use The Force];
-      1 ------ 5[Train to Become a Jedi];
 
-0 ----- 2[Identify a Critical Weakness];
-        2 --- 4[Rescue the Princess];
-        2 ----- 6[Acquire the Schematics];
+![Star Wars plot diagram](star_wars_diagram.png)
 
-0 ---- 3[Engage Enemy Fighters];
-```
-
-##### (GitHub + Mermaid) Chrome extension flowchart
-```mermaid
-graph BT;
-0[Destroy the Death Star];
-0 --- 1[Use The Force];
-      1 --- 5[Train to Become a Jedi];
-
-0 --- 2[Identify a Critical Weakness];
-      2 --- 4[Rescue the Princess];
-      2 --- 6[Acquire the Schematics];
-
-0 --- 3[Engage Enemy Fighters];
-```
-
-##### ASCII directory tree format
 ```
 Destroy the Death Star
 |   |-- Use The Force
