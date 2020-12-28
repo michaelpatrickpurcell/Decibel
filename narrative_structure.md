@@ -37,18 +37,21 @@ A _session_ is made up of a series of encounters. At the beginning of each sessi
 #### Example: Star Wars
 ##### Fancy mermaid flowchart format
 ```mermaid
-graph TD;
-    id6[Acquire the Schematics]---->id3[Identify a Critical Weakness];
-    id5[Train to Become a Jedi]----->id1[Use The Force];
-    id4[Rescue the Princess]-->id3[Identify a Critical Weakness];
-    id3---->id0;
-    id2[Engage Enemy Fighters]--->id0[Destroy the Death Star];
-    id1[Use the Force]-->id0[Destroy the Death Star];
+graph BT;
+id0[Destroy the Death Star];
+id0 --- id1[Use the Force];
+        id1 ------ id5[Train to Become a Jedi];
+
+id0 ---- id2[Engage Enemy Fighters];
+
+id0 ----- id3[Identify a Critical Weakness];
+          id3 --- id4[Rescue the Princess];
+          id3 ----- id6[Acquire the Schematics];
 ```
 
-##### (GitHub + Mermaid) compatible flowchart
+##### (GitHub + Mermaid) Chrome extension flowchart
 ```mermaid
-graph TB;
+graph BT;
 id0[Destroy the Death Star];
 id0 --- id1[Use the Force];
         id1 --- id5[Train to Become a Jedi];
