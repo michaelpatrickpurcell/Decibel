@@ -37,9 +37,9 @@ A _session_ is made up of a series of encounters. At the beginning of each sessi
 #### Example: Star Wars
 ```mermaid
 graph TD;
-    id6[Acquire the Schematics]---->id3[Identify a Critical Weakness];
-    id5[Train to Become a Jedi]----->id1[Use The Force];
-    id4[Rescue the Princess]-->id3[Identify a Critical Weakness];
+    id6[Acquire]---->id3[Identify];
+    id5[Train]----->id1[Use];
+    id4[Rescue]-->id3;
     id3---->id0{{Destroy the Death Star}};
     id2[Engage Enemy Fighters]--->id0;
     id1-->id0;
