@@ -1,5 +1,6 @@
 # Narrative Structure
-The structure of a traditional tabletop RPG adventure relies on a Game Master (GM) to provide an environment for the other players to explore and interact with. Frequently, this takes the form of a series of encounters that the players work through one at a time in some predetermined order. This has the advantage of simplicity and allows the GM to craft a coherent plot but severely limits player agency.  
+The structure of a traditional tabletop RPG adventure relies on a Game Master (GM) to provide an environment for the other players to explore and interact with.
+Frequently, this takes the form of a series of encounters that the players work through one at a time in some predetermined order. This has the advantage of simplicity and allows the GM to craft a coherent plot but severely limits player agency.  
 
 Alternatively, a GM might prepare a network of possible encounters for the players to explore in a less structured manner. This give the non-GM players more agency but requires the GM to generate a large amount of content ahead of time, some of which may never be seen by the other players.
 
