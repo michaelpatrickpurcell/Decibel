@@ -1,12 +1,12 @@
 # Narrative Structure
-The structure of a traditional tabletop RPG adventure relies on a Game Master (GM) to provide an environment for the other players to explore and interact with.
+The structure of a traditional tabletop role playing game adventure relies on a Game Master (GM) to provide an environment for the other players to explore and interact with.
 Frequently, this takes the form of a series of encounters that the players work through one at a time in some predetermined order.
 This has the advantage of simplicity and allows the GM to craft a coherent plot but severely limits player agency.  
 
 Alternatively, a GM might prepare a network of possible encounters for the players to explore in a less structured manner.
 This give the non-GM players more agency but requires the GM to generate a large amount of content ahead of time, some of which may never be seen by the other players.
 
-We propose a two-stage process that allows the players create the story that they will experience themselves.
+We propose a two-stage process that allows the players create the story that they will experience themselves, without requiring that one player assume the GM's mantle.
 In the first stage the players first decide on what the climax of the story will be and work backwards, laying out a series of significant events that lead to the chosen climax until they reach a natural starting point for their story.
 In the second stage the players work forwards, filling in the details that surround and connect these significant events until they get back to the climax of their story.
 
@@ -42,7 +42,7 @@ So, they create three encounters that form the immediate backstory for this clim
 
 While they agree that `Engage Enemy Fighters` seems interesting enough to delve deeper into on another occasion, they are more interested in exploring what events might have led to the other two encounters.
 
-They create the encounter  `Train to Become a Jedi` as a precursor to `Use the Force`.
+They create the encounter  `Train to Become a Jedi` as a precursor to `Use The Force`.
 They don't have much more to add to the "Jedi" storyline at the moment, but they want to see if it is interesting enough to revisit in subsequent adventures.
 
 Finally, they create the encounter `Deliver the Schematics` as a precursor to `Identify a Critical Weakness`.
