@@ -1,24 +1,18 @@
 # Decibel: A dice mechanic for tabletop role playing games
-Dice mechanics lie at the heart of many tabletop role playing games. These mechanics
-are often part of a resolution system that players use to determine what actually
-happens in the game when their characters attempt to do something risky. These
-mechanics provide a source of randomness that is used to model any uncertainty
-inherent in the proposed action and their outcome provides an objective measure of
-the character's degree of success.
+Dice mechanics lie at the heart of many tabletop role playing games. These mechanics are often part of a resolution system that players use to determine what actually happens in the game when their characters attempt to do something risky.
+These mechanics provide a source of randomness that is used to model any uncertainty inherent in the proposed action and their outcome provides an objective measure of the character's degree of success.
 
-Decibel is a generic dice mechanic that can serve as the chassis on which a complete
-tabletop role playing game can be built.  It is a dice pool mechanic.  To use Decibel
-as part of a resolution system, players make a check which consists of three steps:
+Decibel is a generic dice mechanic that can serve as the chassis on which a complete tabletop role playing game can be built.
+It is a dice pool mechanic.
+To use Decibel as part of a resolution system, players make a check which consists of three steps:
 
   1. Assemble a pool of twenty-sided dice;
   2. Roll the dice and sort the resulting values from largest to smallest;
   3. Compute the outcome of the check.  
 
-The size of the dice pool depends on the action being attempted and any circumstances
-that might affect a characters performance. The outcome of the check is the difference
-between the largest and smallest values of the rolled dice. This outcome is then compared
-to some other quantity, which could be a fixed target number or the outcome of another
-check, to determine what happens in the game.  
+The size of the dice pool depends on the action being attempted and any circumstances that might affect a characters performance.
+The outcome of the check is the difference between the largest and smallest values of the rolled dice.
+This outcome is then compared to some other quantity, which could be a fixed target number or the outcome of another check, to determine what happens in the game.  
 
 ## Simple Checks
 To make a _simple check_, players roll a pool of three or more twenty-sided dice (d20s).
